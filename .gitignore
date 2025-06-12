@@ -1,0 +1,22 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore virtual environments
+venv/
+
+# Ignore log and key files (sensitive or generated at runtime)
+logs/command_log.json
+logs/secret.key
+history.txt
+
+# Ignore test output or temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
